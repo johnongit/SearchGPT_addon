@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "ChatGPT Search",
+    "version": "1.0",
+    "description": "Ajoute ChatGPT comme moteur de recherche personnalisé.",
+    "icons": {
+      "48": "logo.webp"
+    },
+    "chrome_settings_overrides": {
+      "search_provider": {
+        "name": "ChatGPT",
+        "search_url": "https://chatgpt.com/?q={searchTerms}&hints=search",
+        "favicon_url": "https://chatgpt.com/favicon.ico",
+        "keyword": "chatgpt",
+        "encoding": "UTF-8",
+        "is_default": false
+      }
+    }
+  }
+  
